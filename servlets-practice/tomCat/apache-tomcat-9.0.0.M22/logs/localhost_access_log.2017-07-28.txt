@@ -1,0 +1,17 @@
+127.0.0.1 - - [28/Jul/2017:00:33:41 +0300] "GET /tomcat-app/product/product HTTP/1.1" 200 565
+127.0.0.1 - - [28/Jul/2017:00:33:54 +0300] "GET /tomcat-app/info/product HTTP/1.1" 200 20
+127.0.0.1 - - [28/Jul/2017:00:33:58 +0300] "GET /tomcat-app/info/product?asdf HTTP/1.1" 200 20
+127.0.0.1 - - [28/Jul/2017:00:34:02 +0300] "GET /tomcat-app/info/product?name HTTP/1.1" 200 12
+127.0.0.1 - - [28/Jul/2017:00:34:09 +0300] "GET /tomcat-app/info/product?name=3 HTTP/1.1" 200 23
+127.0.0.1 - - [28/Jul/2017:00:34:16 +0300] "GET /tomcat-app/info/product?name=book HTTP/1.1" 200 63
+127.0.0.1 - - [28/Jul/2017:00:34:26 +0300] "GET /tomcat-app/info/product?name=smartphone HTTP/1.1" 200 71
+127.0.0.1 - - [28/Jul/2017:00:34:32 +0300] "GET /tomcat-app/info/product?name=kuku HTTP/1.1" 200 23
+127.0.0.1 - - [28/Jul/2017:00:41:49 +0300] "GET /tomcat-app/product/product HTTP/1.1" 200 565
+127.0.0.1 - - [28/Jul/2017:00:42:00 +0300] "GET /tomcat-app/view/product/productView HTTP/1.1" 200 23
+127.0.0.1 - - [28/Jul/2017:00:42:06 +0300] "GET /tomcat-app/view/product/productView HTTP/1.1" 200 23
+127.0.0.1 - - [28/Jul/2017:00:42:13 +0300] "GET /tomcat-app/view/product/productView?name HTTP/1.1" 200 23
+127.0.0.1 - - [28/Jul/2017:00:42:20 +0300] "GET /tomcat-app/view/product/productView?name=book HTTP/1.1" 200 23
+127.0.0.1 - - [28/Jul/2017:00:44:36 +0300] "GET /tomcat-app/view/product/productView?name=book HTTP/1.1" 200 23
+127.0.0.1 - - [28/Jul/2017:00:44:37 +0300] "GET /tomcat-app/view/product/productView?name=book HTTP/1.1" 403 1056
+127.0.0.1 - - [28/Jul/2017:00:45:41 +0300] "GET /tomcat-app/info/product?name=kuku HTTP/1.1" 200 23
+127.0.0.1 - - [28/Jul/2017:00:45:57 +0300] "GET /tomcat-app/view/product/productView?name=book HTTP/1.1" 403 1056

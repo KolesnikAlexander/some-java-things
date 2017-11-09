@@ -1,0 +1,173 @@
+28-Jul-2017 00:33:35.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M22
+28-Jul-2017 00:33:35.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 21 2017 09:44:18 UTC
+28-Jul-2017 00:33:35.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+28-Jul-2017 00:33:35.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jul-2017 00:33:35.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-27-generic
+28-Jul-2017 00:33:35.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2017 00:33:35.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+28-Jul-2017 00:33:35.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+28-Jul-2017 00:33:35.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2017 00:33:35.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22
+28-Jul-2017 00:33:35.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22
+28-Jul-2017 00:33:35.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/conf/logging.properties
+28-Jul-2017 00:33:35.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2017 00:33:35.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jul-2017 00:33:35.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jul-2017 00:33:35.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22
+28-Jul-2017 00:33:35.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22
+28-Jul-2017 00:33:35.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/temp
+28-Jul-2017 00:33:35.771 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/opt/idea-IC-171.4694.23/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+28-Jul-2017 00:33:35.931 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 00:33:35.945 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2017 00:33:35.949 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2017 00:33:35.951 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2017 00:33:35.951 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 597 ms
+28-Jul-2017 00:33:35.983 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2017 00:33:35.983 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M22
+28-Jul-2017 00:33:36.006 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/tomcat-app.war]
+28-Jul-2017 00:33:36.036 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/tomcat-app] was found with a last modified time that did not match the associated WAR. It will be deleted.
+28-Jul-2017 00:33:36.392 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/tomcat-app.war] has finished in [386] ms
+28-Jul-2017 00:33:36.393 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/manager]
+28-Jul-2017 00:33:36.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/manager] has finished in [38] ms
+28-Jul-2017 00:33:36.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/ROOT]
+28-Jul-2017 00:33:36.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/ROOT] has finished in [22] ms
+28-Jul-2017 00:33:36.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/examples]
+28-Jul-2017 00:33:36.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/examples] has finished in [279] ms
+28-Jul-2017 00:33:36.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/docs]
+28-Jul-2017 00:33:36.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/docs] has finished in [19] ms
+28-Jul-2017 00:33:36.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/host-manager]
+28-Jul-2017 00:33:36.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/host-manager] has finished in [21] ms
+28-Jul-2017 00:33:36.777 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 00:33:36.783 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2017 00:33:36.784 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 832 ms
+28-Jul-2017 00:44:33.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M22
+28-Jul-2017 00:44:33.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 21 2017 09:44:18 UTC
+28-Jul-2017 00:44:33.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+28-Jul-2017 00:44:33.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jul-2017 00:44:33.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-27-generic
+28-Jul-2017 00:44:33.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/conf/logging.properties
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22
+28-Jul-2017 00:44:33.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/temp
+28-Jul-2017 00:44:33.297 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/opt/idea-IC-171.4694.23/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+28-Jul-2017 00:44:33.431 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 00:44:33.444 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:608)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:631)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+28-Jul-2017 00:44:33.445 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2017 00:44:33.446 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:608)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:631)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+28-Jul-2017 00:44:33.447 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 546 ms
+28-Jul-2017 00:44:33.468 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2017 00:44:33.469 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M22
+28-Jul-2017 00:44:33.484 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/tomcat-app.war]
+28-Jul-2017 00:44:33.514 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/tomcat-app] was found with a last modified time that did not match the associated WAR. It will be deleted.
+28-Jul-2017 00:44:33.824 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/tomcat-app.war] has finished in [339] ms
+28-Jul-2017 00:44:33.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/manager]
+28-Jul-2017 00:44:33.863 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/manager] has finished in [38] ms
+28-Jul-2017 00:44:33.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/ROOT]
+28-Jul-2017 00:44:33.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/ROOT] has finished in [16] ms
+28-Jul-2017 00:44:33.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/examples]
+28-Jul-2017 00:44:34.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/examples] has finished in [305] ms
+28-Jul-2017 00:44:34.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/docs]
+28-Jul-2017 00:44:34.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/docs] has finished in [18] ms
+28-Jul-2017 00:44:34.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/host-manager]
+28-Jul-2017 00:44:34.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/host-manager] has finished in [21] ms
+28-Jul-2017 00:44:34.230 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 783 ms
+28-Jul-2017 00:44:34.231 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:745)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:691)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+28-Jul-2017 00:44:34.232 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 00:44:34.232 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2017 00:44:34.233 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2017 00:44:34.263 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 00:44:34.263 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 00:44:34.264 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2017 00:44:34.265 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2017 00:44:36.879 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tomcat-app]
+28-Jul-2017 00:44:36.902 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/tomcat-app.war]
+28-Jul-2017 00:44:36.959 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alex60070/Documents/Intellij Projects/TomcatApp/tomCat/apache-tomcat-9.0.0.M22/webapps/tomcat-app.war] has finished in [57] ms
+28-Jul-2017 01:06:52.088 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Jul-2017 01:06:52.089 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 01:06:52.142 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2017 01:06:52.192 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2017 01:06:52.224 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 01:06:52.227 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2017 01:06:52.235 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jul-2017 01:06:52.236 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="157.0" prefWidth="273.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.controller.AddLinkController">
+
+    <children>
+      <Label layoutX="84.0" layoutY="35.0" text="Имя соединения:" />
+      <TextField fx:id="nameField" layoutX="51.0" layoutY="66.0" />
+      <Button layoutX="51.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#okClick" prefHeight="25.0" prefWidth="63.0" text="OK" />
+      <Button layoutX="143.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#cancelClick" text="Отмена" />
+   </children>
+</Pane>
